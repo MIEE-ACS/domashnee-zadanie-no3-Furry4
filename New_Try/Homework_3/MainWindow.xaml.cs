@@ -126,7 +126,7 @@ namespace HomeWork_3
                 MessageBox.Show("Вы ввели число");
         }
 
-        private void bt_1_Click(object sender, RoutedEventArgs e)
+        private void Bt_1_Click(object sender, RoutedEventArgs e)
         {
             if (tb_1.Text == "")
             {
@@ -138,7 +138,7 @@ namespace HomeWork_3
                 function_for_cipher(flag);
             }
         }
-        private void bt_2_Click(object sender, RoutedEventArgs e)
+        private void Bt_2_Click(object sender, RoutedEventArgs e)
         {
             if (tb_2.Text == "")
             {

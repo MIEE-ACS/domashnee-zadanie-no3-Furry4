@@ -12,11 +12,11 @@
 
         <Label x:Name="lb_2" Content="Текст для шифровки:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontSize = "20" FontFamily = "Impact" FontWeight = "Normal" Height = "37" Width = "230"/>
         <TextBox x:Name="tb_1" Margin="245,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontFamily = "Britanic Bold" FontSize = "20" Height = "37"  HorizontalAlignment="Left" VerticalContentAlignment="Center"/>
-        <Button x:Name="bt_1" Content="Зашифровать" HorizontalAlignment="Left" Margin="605,70,0,0" VerticalAlignment="Top" Height="37" Width="110" FontFamily="Impact" FontSize="15" FontWeight="Normal" Click="bt_1_Click" RenderTransformOrigin="0.545,0.768"/>
+        <Button x:Name="bt_1" Content="Зашифровать" HorizontalAlignment="Left" Margin="605,70,0,0" VerticalAlignment="Top" Height="37" Width="110" FontFamily="Impact" FontSize="15" FontWeight="Normal" Click="Bt_1_Click" RenderTransformOrigin="0.545,0.768"/>
         
         <Label x:Name="lb_3" Content="Текст для дешифровки:" HorizontalAlignment="Left" Margin="10,143,0,0" VerticalAlignment="Top" FontFamily="Impact" FontSize="20" Width="230" />
         <TextBox x:Name="tb_2" Margin="245,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontSize="20" FontFamily="Britanic Bold" Height="37" FontStretch="ExtraExpanded" HorizontalAlignment="Left" Text="" VerticalContentAlignment="Center" />
-        <Button x:Name="bt_2" Content="Расшифровать" HorizontalAlignment="Left" Margin="605,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.423,0.039" Width="110" Height="37" FontFamily="Impact" FontSize="15" Click="bt_2_Click" />
+        <Button x:Name="bt_2" Content="Расшифровать" HorizontalAlignment="Left" Margin="605,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.423,0.039" Width="110" Height="37" FontFamily="Impact" FontSize="15" Click="Bt_2_Click" />
 
         <Label x:Name="lb_result_1" Content="Результат шифровки:" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" FontFamily="Impact" FontSize="20" Width="230" />
         <TextBox x:Name="tb_result_1" HorizontalAlignment="Left" Margin="245,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="328" FontSize="20" FontFamily="Britanic Bold" Height="37" FontStretch="ExtraExpanded" IsEnabled="True" VerticalContentAlignment="Center" />
